@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Formation extends Component {
+class Formation extends Component {
   render() {
     return (<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
@@ -19,3 +19,4 @@ export default class Formation extends Component {
     </section>)
   }
 }
+export default Formation;

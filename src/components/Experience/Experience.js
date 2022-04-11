@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Experience extends Component {
+ class Experience extends Component {
   render() {
     return (
       <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
@@ -20,3 +20,4 @@ export default class Experience extends Component {
       </section>)
   }
 }
+export default Experience;

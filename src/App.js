@@ -1,9 +1,18 @@
 import React from 'react';
-import profile from './profile.jpg';
+
+import profil from './profil.png';
+import {Routes,Route, Link} from 'react-router-dom'
 import './App.css';
+import About from './components/About/About'
+import Experience from './components/Experience/Experience'
+import Formation from './components/Formation/Formation'
 
 
 function App() {
+
+
+
+
   return (
 
     <div>
@@ -12,7 +21,7 @@ function App() {
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <span class="d-block d-lg-none">Clarence Taylor</span>
           <span class="d-none d-lg-block">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src={profile} alt="" />
+            <img class="img-fluid img-profile mx-auto mb-2" src={profil} alt="" />
           </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,20 +30,27 @@ function App() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="#about" class="nav-link js-scroll-trigger">About</a>
+              <Link to="/" class="nav-link js-scroll-trigger">About</Link>
             </li>
             <li class="nav-item">
-              <a href="#experience" class="nav-link js-scroll-trigger">Expérience</a>
+              <Link to="/experience" class="nav-link js-scroll-trigger">Expérience</Link>
             </li>
             <li class="nav-item">
-              <a href="#education" class="nav-link js-scroll-trigger">Education</a>
+              <Link to ="/education" class="nav-link js-scroll-trigger">Education</Link>
             </li>
 
           </ul>
         </div>
       </nav>
 
+
       <div class="container-fluid p-0">
+
+        <Routes>
+          <Route path='/' element={<About/>}/>
+          <Route path='/experiences' element={<Experience/>}/>
+          <Route path='/formation' element={<Formation/>}/>
+        </Routes>
        
       </div>
 
