@@ -3,6 +3,7 @@ import React from 'react';
 import profil from './profil.png';
 import {Routes,Route, Link} from 'react-router-dom'
 import './App.css';
+import './Styles/resume.css'
 import About from './components/About/About'
 import Experience from './components/Experience/Experience'
 import Formation from './components/Formation/Formation'
@@ -32,12 +33,13 @@ function App() {
             <li class="nav-item">
               <Link to="/" class="nav-link js-scroll-trigger">About</Link>
             </li>
+             <li class="nav-item">
+              <Link to ="/formation" class="nav-link js-scroll-trigger">Formation</Link>
+            </li>
             <li class="nav-item">
               <Link to="/experience" class="nav-link js-scroll-trigger">Expérience</Link>
             </li>
-            <li class="nav-item">
-              <Link to ="/education" class="nav-link js-scroll-trigger">Education</Link>
-            </li>
+           
 
           </ul>
         </div>
@@ -48,7 +50,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<About/>}/>
-          <Route path='/experiences' element={<Experience/>}/>
+          <Route path='/experience' element={<Experience/>}/>
           <Route path='/formation' element={<Formation/>}/>
         </Routes>
        
