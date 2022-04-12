@@ -132,3 +132,9 @@ export default Experience;
 
 
 ```
+
+
+## Conlusion
+
+Ce projet m'a permis de faire face à certains problèmes que j'ai pu résoudre grâce à mes différentes recherches internet et tests. Certes, j'ai pris du temps à résoudre certains problèmes mais c'est important pour moi de les résoudres tout de suite car cela me permettra d'y faire face rapidement lorsque je serai de nouveau confrontée à ce ou ces problème(s). Selon moi, il faut le prendre le temps qu'il faut surtout quand nous sommes en formation pour apprendre à résoudre les problèmes même si ça prend du temps. Grâce à la magie de Google, on a forcément la réponse à nos problèmes car d'autres dévs ont déjà eu à faire face à ces problèmes. Je ne voulais pas avancer en me disant que je m'en occuperai plus tard.
+J'essaye à chaque nouveau projet d'implémenter les maj de REACT 18 comme le RenderDOM.CreateRoot même si dans ma formation, c'est une version plus ancienne de React qui est utilisée.
