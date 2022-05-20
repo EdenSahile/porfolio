@@ -1,0 +1,21 @@
+
+
+.container-404{
+
+width: 100%;
+}
+
+.container-404__image{
+display: block; 
+margin:0 auto;
+width:70%
+
+
+}
+
+.container-404__paragraphe{
+    font-size:2rem;
+    text-align: center;
+
+
+}
