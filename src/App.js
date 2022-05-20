@@ -65,8 +65,8 @@ function App() {
 
       <div class="container-fluid p-0">
         <Routes>
-   
-          <Route path="/portfolio" element={<About />} /> 
+          <Route path={process.env.PUBLIC_URL + '/'}/>
+          {/* <Route path="/portfolio" element={<About />} />  */}
           <Route path="/experience" element={<Experience />} />
           <Route path="/formation" element={<Formation />} />
           <Route path="*"  element={<ErrorPage/>} />
