@@ -1,9 +1,10 @@
-# Projet : Portfolio
+# Projet : Portfolio 
+Création de mon portfolio en ReactJS
 
-Il s'agit d'un porfolio one page avec plusieurs parties.
 
 - Framework and library : Botstrap et fontAwesome 
-
+- React : Implémentation de routers
+- Vous pouvez consulter la page en cliquant sur le lien suivant : 
 
 
 ## Partie 1 : About

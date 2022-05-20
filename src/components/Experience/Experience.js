@@ -34,7 +34,7 @@ const experiences=[
 },
  {
   titre:"Chargée de marketing digital et UX Design",
-   contrat :"Alternance - reprise d'études",
+   contrat :"Alternance - 2ème reprise d'études",
    entreprise:"Média Diffusion",
   dates : "Mars 2018 - mars 2019",
      description:[
@@ -56,7 +56,7 @@ const experiences=[
    titre:"Responsable clientèle",
     contrat :"CDD",
    entreprise:"Média Diffusion",
-   date : "Mai 2017 - octobre 2017",
+   dates : "Mai 2017 - octobre 2017",
     description:[
     "- Gestion d'un portefeuille clients non livre",
     "- Développement du CA par la mise en oeuvre de plans d'actions",
@@ -64,6 +64,22 @@ const experiences=[
  ]
 
  },
+ {
+  titre:"Chargée de communication web et print",
+   contrat :"stage - 1ère reprise d'études",
+   entreprise:"CGI Immobilier",
+  dates : "juillet 2015 - mai 2016",
+    description:[
+      "- Création de supports de communication (brochures, plaquettes…)",
+      "- Création et animation de la page Facebook de l’agence :",
+      "- Mise à jour du site web",
+      "Traduction de documents en anglais",
+      "- Mise en conformité de l’entreprise avec les affichages obligatoires",
+      "- Accueil physique et téléphonique des locataires, acheteurs et vendeurs (français et étrangers)",
+      "- Prospection sur le web (PAP, Le Bon Coin...)"
+    ]
+     
+},
  {
   titre:"Assistante de Direction Commerciale Grands Comptes et communication web",
   contrat :"CDI",
@@ -87,22 +103,7 @@ const experiences=[
 },
 
 
-{
-  titre:"Chargée de communication web et print",
-   contrat :"stage - reprise d'études",
-   entreprise:"CGI Immobilier",
-  dates : "juillet 2015 - mai 2016",
-    description:[
-      "- Création de supports de communication (brochures, plaquettes…)",
-      "- Création et animation de la page Facebook de l’agence :",
-      "- Mise à jour du site web",
-      "Traduction de documents en anglais",
-      "- Mise en conformité de l’entreprise avec les affichages obligatoires",
-      "- Accueil physique et téléphonique des locataires, acheteurs et vendeurs (français et étrangers)",
-      "- Prospection sur le web (PAP, Le Bon Coin...)"
-    ]
-     
-}
+
 ]
 
 
@@ -134,7 +135,7 @@ const Description=({
                           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                             <div class="resume-content">
                               <h3 class="mb-0">{exp.titre}</h3>
-                                <div class="subheading ">{exp.entreprise}</div>
+                                <div class="subheading ">{exp.entreprise} - {exp.contrat}</div>
                                 <div class="resume-date ">
                                   <span class="text-primary ">{exp.dates}</span>
                                 </div>
