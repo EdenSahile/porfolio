@@ -65,7 +65,7 @@ function App() {
 
       <div class="container-fluid p-0">
         <Routes>
-          <Route path="/" element={<About />} />
+   
           <Route path="/portfolio" element={<About />} /> 
           <Route path="/experience" element={<Experience />} />
           <Route path="/formation" element={<Formation />} />
